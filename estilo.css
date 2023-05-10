@@ -26,6 +26,7 @@ justify-items: center;
     height: 40px;
     width: 40px; 
     text-align: center;
+    background-color: none;
 }
 table
 {
@@ -50,5 +51,14 @@ table
 }
 .oba
 {
-    background-color: yellow;
+    background-color: rgb(43, 255, 0);
+    border: 1px solid;
+    height: 40px;
+    width: 40px; 
+    text-align: center;
+}
+.oba_especial
+{
+    border: 1px solid;
+    background-color: rgb(43, 255, 0) ;
 }

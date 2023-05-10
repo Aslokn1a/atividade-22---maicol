@@ -6,10 +6,17 @@ function Pega_Tecla(e)
 
     tecla = e.keyCode;
     console.log(tecla); // MOSTRA O CÓDIGO DA TECLA PRESSIONADA
-
-}
-
-function colorir()
-{
+    element = document.getElementById(tecla)
+    
+    element.classList.remove('tecla')
+    element.classList.add('oba')
+    setTimeout(pisca,50);
+                function pisca()
+                {
+                    element.classList.remove("oba");
+                    element.classList.add("tecla");
+                }
     
 }
+
+
